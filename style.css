@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Balsamiq+Sans);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+
+body { 
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(61, 44, 120);
+}
+
+p {
+    font-size: 20px;
+    width: 400px;
+}
+ 
+}
+.logo {
+    padding-top: 50px;
+    padding-right: 20px;
+    background-color: aquamarine;
+}
+
+
+.image-txt-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 100px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0,0,128);  
+  right: 2.3%;
+  font-family: "Playfair Display";  
+  font-weight: bold;
+  font-size: 50px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 150px;
+  font-family:"Balsamiq Sans";
+}
+
+img {
+    padding-top: 20px;
+}
